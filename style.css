@@ -1,0 +1,20 @@
+body {
+    max-width: 1080px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: beige;
+}
+
+img {
+    width: 200px;
+    border-radius: 10%;
+}
+
+.images {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pelajeCorto {
+    background-color: burlywood;
+}
