@@ -3,18 +3,14 @@ body {
     margin-right: auto;
     margin-left: auto;
     background-color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: burlywood;
 }
 
 img {
     width: 200px;
     border-radius: 10%;
-}
-
-.images {
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.pelajeCorto {
-    background-color: burlywood;
 }
