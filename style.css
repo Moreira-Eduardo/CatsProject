@@ -2,15 +2,54 @@ body {
     max-width: 1080px;
     margin-right: auto;
     margin-left: auto;
-    background-color: beige;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f3f3f3;
+    font-family: "Helvetica Neue",Helvetica,Arial;
 }
 
 header {
-    background-color: burlywood;
+    text-align: center;
+    text-shadow: 3px 3px 3px grey;
+    border : solid 5px black;
+    background-image: url("https://media.istockphoto.com/vectors/pet-paw-seamless-pattern-background-vector-id1097860510?b=1&k=20&m=1097860510&s=612x612&w=0&h=upf26JnkTh5bOgwjy4Po7x4klgZ7Wb38icZAfFeAyhs=");
+
 }
 
-img {
+.images {
     width: 200px;
-    border-radius: 10%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+h1 {
+    font-family: 'Yatra One';
+    font-size: 70px;
+    margin: 0px;
+    
+}
+
+#description {
+    background-color: #b0ace2;
+    padding: 20px;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+.contenido { /* cajas con imagenes de gatos*/
+    background-color: #ecd4ea;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 5%;
+}
+
+#vertodo img{
+    height: 150px;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 50px;
+    text-align: center;
+    background-color: #b0ace2;
 }
