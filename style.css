@@ -2,49 +2,81 @@ body {
     max-width: 1080px;
     margin-right: auto;
     margin-left: auto;
-    background-color: #f3f3f3;
+    margin-top: 0px;
+    margin-bottom: 0px;
     font-family: "Helvetica Neue",Helvetica,Arial;
+    background-color: gainsboro;
 }
 
 header {
-    text-align: center;
-    text-shadow: 3px 3px 3px grey;
-    border : solid 5px black;
-    background-image: url("https://media.istockphoto.com/vectors/pet-paw-seamless-pattern-background-vector-id1097860510?b=1&k=20&m=1097860510&s=612x612&w=0&h=upf26JnkTh5bOgwjy4Po7x4klgZ7Wb38icZAfFeAyhs=");
-
+    background-color: red;
 }
 
-.images {
-    width: 200px;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
+.portada {
+    text-align: center;
+    background-color: #97C4B8;
 }
 
 h1 {
     font-family: 'Yatra One';
     font-size: 70px;
-    margin: 0px;
-    
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+/*Barra de navegacion*/
+nav ul {
+    background-color: orange;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav ul a {
+    color: white;
+}
+
+.images {
+    width: 200px;
 }
 
 #description {
     background-color: #b0ace2;
     padding: 20px;
-    border-top-left-radius: 20%;
-    border-bottom-right-radius: 20%;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
 
-.contenido { /* cajas con imagenes de gatos*/
-    background-color: #ecd4ea;
+.containers {
+    /* background-color: red; */
+    display: flex;
+    direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contenido {
+    background-color: #b0ace2;
+    /* background-color: #ecd4ea; */
     width: 200px;
-    display: inline-block;
+    margin-bottom: 10px;
     text-align: center;
-    margin-right: 10px;
-    border-radius: 5%;
 }
 
-#vertodo img{
-    height: 150px;
+#vertodo {
+    /* background-color: #ecd4ea; */
+    background-color: #b0ace2;
+    display: flex;
+    direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
@@ -52,4 +84,18 @@ footer {
     padding: 50px;
     text-align: center;
     background-color: #b0ace2;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.titulos {
+    background-color: blueviolet;
+    color: white;
+    /* width: 300px; */
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
