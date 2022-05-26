@@ -6,40 +6,45 @@ body {
     margin-bottom: 0px;
     font-family: "Helvetica Neue",Helvetica,Arial;
     background-color: gainsboro;
-}
-
-header {
-    background-color: red;
+    display: flex;
+    flex-direction: column;
 }
 
 .portada {
     text-align: center;
-    background-color: #97C4B8;
+    background-color: #b0ace2;
 }
 
-h1 {
+.titulo {
     font-family: 'Yatra One';
     font-size: 70px;
     margin-bottom: 0px;
     margin-top: 0px;
 }
 
+h1 {
+    text-align: center;
+}
+
 h2 {
     margin-bottom: 0px;
+    padding-bottom: 20px;
 }
 
 /*Barra de navegacion*/
 nav ul {
-    background-color: orange;
+    background-color: blueviolet;
     padding: 10px;
+    margin-top: 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
 }
 
-nav ul a {
+a {
     color: white;
+    text-decoration: none;
 }
 
 .images {
@@ -54,7 +59,6 @@ nav ul a {
 }
 
 .containers {
-    /* background-color: red; */
     display: flex;
     direction: row;
     flex-wrap: wrap;
@@ -63,14 +67,12 @@ nav ul a {
 
 .contenido {
     background-color: #b0ace2;
-    /* background-color: #ecd4ea; */
     width: 200px;
     margin-bottom: 10px;
     text-align: center;
 }
 
 #vertodo {
-    /* background-color: #ecd4ea; */
     background-color: #b0ace2;
     display: flex;
     direction: row;
@@ -83,6 +85,7 @@ footer {
     margin-top: 50px;
     padding: 50px;
     text-align: center;
+    color: white;
     background-color: #b0ace2;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -91,7 +94,6 @@ footer {
 .titulos {
     background-color: blueviolet;
     color: white;
-    /* width: 300px; */
     border-radius: 10px;
     margin-bottom: 10px;
     padding: 7px;
